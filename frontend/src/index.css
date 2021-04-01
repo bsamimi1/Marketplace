@@ -1,11 +1,10 @@
 html{
-    font-size: 62.5%;
     box-sizing: border-box;
 }
 body{
     margin:0;
     height:100vh;
-    font-size:1.6rem;
+    font-size:1.5rem;
     font-family: Helvetica, Arial sans-serif;
 }
 
@@ -31,11 +30,11 @@ footer{
 }
 
 h1{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 1rem 0;
 }
 h2{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     padding: 1rem 0;
 }
 
@@ -86,4 +85,12 @@ img.medium{
 
 #root{
   height:100%;
+}
+
+.rating span{
+  color: rgb(230, 198, 18);
+}
+
+.rating span:last-child{
+  color:black
 }

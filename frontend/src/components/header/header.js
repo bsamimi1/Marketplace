@@ -9,17 +9,11 @@ export default function header() {
       variant="dark"
     >
       <ReactBootStrap.Navbar.Brand href="#home">
-        React-Bootstrap
+        Ze Market
       </ReactBootStrap.Navbar.Brand>
       <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
         <ReactBootStrap.Nav className="mr-auto">
-          <ReactBootStrap.Nav.Link href="#features">
-            Features
-          </ReactBootStrap.Nav.Link>
-          <ReactBootStrap.Nav.Link href="#pricing">
-            Pricing
-          </ReactBootStrap.Nav.Link>
           <ReactBootStrap.NavDropdown
             title="Dropdown"
             id="collasible-nav-dropdown"
@@ -41,10 +35,10 @@ export default function header() {
         </ReactBootStrap.Nav>
         <ReactBootStrap.Nav>
           <ReactBootStrap.Nav.Link href="#deets">
-            More deets
+            Profile
           </ReactBootStrap.Nav.Link>
           <ReactBootStrap.Nav.Link eventKey={2} href="#memes">
-            Dank memes
+            Cart
           </ReactBootStrap.Nav.Link>
         </ReactBootStrap.Nav>
       </ReactBootStrap.Navbar.Collapse>
